@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Assignment1</string>
+    <string name="no_clicks_yet">No Clicks Yet</string>
+    <string name="register_a_click" />
+    <string name="toggle_image" />
+    <string name="reset" />
 </resources>
