@@ -20,13 +20,20 @@
         android:id="@+id/clickBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/register_a_click"/>
+        android:text="@string/register_a_click"
+        android:onClick="onClickRegister"/>
 
     <Button
         android:id="@+id/toggleBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/toggle_image"/>
+        android:text="@string/toggle_image"
+        android:onClick="onClickToggle"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageDog" />
 
 
 </LinearLayout>
