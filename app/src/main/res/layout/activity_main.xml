@@ -12,28 +12,37 @@
 
     <TextView
         android:id="@+id/textField"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/no_clicks_yet" />
-
-    <Button
-        android:id="@+id/clickBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/register_a_click"
-        android:onClick="onClickRegister"/>
-
-    <Button
-        android:id="@+id/toggleBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/toggle_image"
-        android:onClick="onClickToggle"/>
+        android:text="@string/no_clicks_yet"
+        android:gravity="center_horizontal" />
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:id="@+id/imageDog" />
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/dogImageView"
+        android:src="@drawable/dog" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
+        <Button
+            android:id="@+id/clickBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_a_click"
+            android:onClick="onClickRegister"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/toggleBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toggle_image"
+            android:onClick="onClickToggle"
+            android:layout_weight="1"/>
+    </LinearLayout>
 </LinearLayout>

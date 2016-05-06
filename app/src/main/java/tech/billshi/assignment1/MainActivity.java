@@ -1,6 +1,5 @@
 package tech.billshi.assignment1;
 
-import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -13,14 +12,14 @@ public class MainActivity extends AppCompatActivity {
     private int clicks = 0;
     private boolean isImageDisp = false;
     private TextView textField;
-    private ImageView imageDog;
+    private ImageView dogImageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         textField = (TextView) findViewById(R.id.textField);
-        imageDog = (ImageView) findViewById(R.id.imageDog);
+        dogImageView = (ImageView) findViewById(R.id.dogImageView);
         if (savedInstanceState != null) {
             clicks = savedInstanceState.getInt("clicks");
             isImageDisp = savedInstanceState.getBoolean("isImageDisp");
@@ -82,14 +81,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void resetImage() {
-        imageDog.setImageResource(android.R.color.transparent);
-        imageDog.setContentDescription(null);
+//        dogImageView.setImageResource(android.R.color.transparent);
+//        dogImageView.setContentDescription(null);
+        dogImageView.setVisibility(View.INVISIBLE);
     }
 
     private void setImage() {
         if (isImageDisp) {
-            imageDog.setImageResource(R.drawable.dog);
-            imageDog.setContentDescription(getText(R.string.dog));
+//            dogImageView.setImageResource(R.drawable.dog);
+//            dogImageView.setContentDescription(getText(R.string.dog));
+            dogImageView.setVisibility(View.VISIBLE);
         } else {
             resetImage();
         }
