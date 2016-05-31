@@ -5,7 +5,10 @@ Code for Assignment 1 in course ECE1778.
 [Download here as a zip folder](https://github.com/shirj/ece1778-assignment1/archive/master.zip "download as zip")
 
 # How to use run the code on your own device
-After downloading the ZIP file, unpack to a folder. (Alternatively clone the repository using Git Version Control System (VCS) On the welcome screen of Android Studio, choose import project. Click yes/confirm/download if Android Studio prompts any missing dependecies/SDKs.
+- After downloading the ZIP file, unpack to a folder. _(Alternatively clone the repository using Git Version Control System (VCS))_
+- On the welcome screen of Android Studio, choose import project.    
+_Click yes/confirm/download if Android Studio prompts any missing dependecies/SDKs._
+- Press the green button on the top to compile and run the project (See the first tutorial for how to set up your development environment)
 
 # What to look for
 ##Java code 
