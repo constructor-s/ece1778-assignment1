@@ -127,11 +127,4 @@ public class MainActivity extends Activity {
         resetTextField();
         resetImage();
     }
-
-
-
-
-
-
-
 }

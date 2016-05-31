@@ -23,7 +23,8 @@
         android:id="@+id/dog_image_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:src="@drawable/dog" />
 
     <Button
         android:id="@+id/clickBtn"
@@ -43,6 +44,6 @@
         android:id="@+id/resetBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/toggle_image"
+        android:text="@string/reset"
         android:onClick="onClickReset"/>
 </LinearLayout>
