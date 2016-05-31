@@ -20,11 +20,11 @@ is in [app/src/main/res/layout/activity_main.xml](../master/app/src/main/res/lay
 #Other interesting files to look at
 ##String resource file
 [app/src/main/res/values/strings.xml](../master/app/src/main/res/values/strings.xml)     
-This is where all string contants are defined. The use of string resource file is very important if you expect to accomadate user of different languages, or change the wording of the application very frequently.
+This is where all string contants are defined. The use of string resource file is very important if you expect to accomadate user of different languages, or change the wording of the application very frequently.    
 In the XML these are referenced as `@string/%STRING_ID%`.    
-In the Java code these can be obtained by `getResources().getText(R.string.%STRING_ID%)`
+In the Java code these can be obtained by `getResources().getText(R.string.%STRING_ID%)` or sometimes just supply the `R.string.%STRING_ID%` id as argument.
 ##Picture (drawable) asset folder
 [app/src/main/res/drawable](../master/app/src/main/res/drawable)     
 Dogs picture used in the assignment goes here.    
 In the XML these are referenced as `@drawable/%DRAWABLE_ID%`.    
-In the Java code these can be obtained by `getResources().getText(R.string.%DRAWABLE_ID%)`
+In the Java code most often methods will accept argument as the int id `(R.string.%DRAWABLE_ID%)`
