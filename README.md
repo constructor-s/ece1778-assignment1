@@ -1,5 +1,6 @@
 # ece1778-assignment1
-Code for Assignment 1 in course ECE1778.
+Code for Assignment 1 in course ECE1778.    
+[View the original assignment here.](http://www.eecg.utoronto.ca/~jayar/ece1778/assignmentp1.pdf#page=3)
 
 # How to Download
 [Download here as a zip folder](https://github.com/shirj/ece1778-assignment1/archive/master.zip "download as zip")
