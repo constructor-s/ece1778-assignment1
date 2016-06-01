@@ -3,7 +3,8 @@ Code for Assignment 1 in course ECE1778.
 [View the original assignment here.](http://www.eecg.utoronto.ca/~jayar/ece1778/assignmentp1.pdf#page=3)
 
 # How to Download
-[Download here as a zip folder](https://github.com/shirj/ece1778-assignment1/archive/master.zip "download as zip")
+[Download here as a zip folder](https://github.com/shirj/ece1778-assignment1/archive/master.zip "download as zip")    
+or [clone the repository using Git](https://help.github.com/articles/which-remote-url-should-i-use/).
 
 # How to use run the code on your own device
 - After downloading the ZIP file, unpack to a folder. _(Alternatively clone the repository using Git Version Control System (VCS))_
